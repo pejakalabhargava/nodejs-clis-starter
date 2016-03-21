@@ -10,12 +10,22 @@
     "type": "git",
     "url": "git://github.com/CrabDude/nodejs-clis-starter.git"
   },
-  "author": "Adam Crabtree",
+  "author": "Adam Crabtree , Bhargava Kakrannaya",
   "license": "MIT",
   "dependencies": {
     "co": "^4.6.0",
     "safeguards": "0.0.3",
     "songbird": "^1.0.2",
     "trycatch": "^1.5.21"
+  },
+  "bin": {
+    "cli-echo": "./echo.js",
+    "cli-cat": "./cat.js",
+    "cli-ls": "./ls.js",
+    "cli-mkdir": "./mkdir.js",
+    "cli-rm": "./rm.js",
+    "cli-touch": "./touch.js",
+    "cli-grep": "./grep.js",
+    "cli-ln": "./ln.js"
   }
 }
